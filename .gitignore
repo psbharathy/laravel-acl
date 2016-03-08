@@ -1,0 +1,12 @@
+# Environment Configuration
+.env
+.idea/workspace.xml
+#Composer and vendor
+vendor/
+composer.lock
+php_errors.log
+
+# Directory folder
+.directory
+.idea/
+.editorconfig

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+    <head>
+        <title>Laravel ACL Pack ::<?php echo $__env->yieldContent('title'); ?></title>
+
+        <link rel="icon" href="/assets/crud-app/css/uibootstrap/images/favicon.ico" />
+
+        <?php echo $__env->yieldContent('css'); ?>
+
+        <link rel="stylesheet" type="text/css"  href="/assets/acl/css/jquery-ui.css"/>
+        <link rel="stylesheet" type="text/css"  href="/assets/acl/lib/bootstrap-v3.2.0/css/bootstrap-theme.css"/>
+        <link rel="stylesheet" type="text/css"  href="/assets/acl/lib/bootstrap-v3.2.0/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css"  href="/assets/acl/css/uibootstrap/jquery-ui-1.10.0.bootstrap.css" />
+        <link rel="stylesheet" type="text/css"  href="/assets/acl/css/font-awesome.css" />
+        <link rel="stylesheet" type="text/css"  href="/assets/acl/css/app.css" />
+
+	    <script type="text/javascript" src="/assets/acl/js/jquery.min.js"></script>
+	    <script type="text/javascript" src="/assets/acl/lib/bootstrap-v3.2.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/assets/acl/js/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/assets/acl/js/bootbox.min.js"></script>
+    </head>
+    <body>
+        <?php echo $__env->yieldContent('menu'); ?>
+
+        <div class='grid_holder'>
+            <?php echo $__env->make('layouts.notifications', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+            <?php echo $__env->yieldContent('content'); ?>
+	    </div>
+    </body>
+</html>

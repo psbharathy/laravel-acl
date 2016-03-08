@@ -1,0 +1,91 @@
+/*****************for roles***********************/
+
+.color-blue{
+    position: relative;
+    top: 1px;
+    color: #6FBDD1;
+    font-size: 14px;
+    font-weight: normal !important;
+}
+.rolesSelectBlock{
+    margin:0 auto;
+    position: relative;
+    float: none;
+    top: 24px;
+}
+.rolesSelectBlock h4{
+    font-weight: normal;
+    color: rgb(21, 111, 134);
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.checkbox .checkbox-material::before {
+    top:0 !important;
+}
+
+.checkbox input[type="checkbox"]{
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+    opacity: 1 !important;
+    z-index: 1 !important;
+    cursor: pointer;
+    top: 1px;
+    right: 7px;
+}
+
+.font-size-20{
+    font-size: 20px;
+}
+
+.checkbox+.checkbox, .radio+.radio {
+    margin-top: 10px !important;
+}
+.adminPanel .form-group.NameRole{
+    position: relative;
+    float: none;
+    margin: 0px auto;
+    width: 81.2%;
+}
+.adminPanel .form-group.NameRole label {
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(21, 111, 134);
+}
+.adminPanel .form-group.btn-create-role {
+    position: relative;
+    float: none;
+    margin: 0px auto;
+    width: 81.2%;
+    top: 20px;
+}
+.adminPanel .form-group.btn-create-role .btn.btn-primary{
+    position: relative;
+    width: 250px;
+    top: 20px;
+    font-size: 16px;
+    border-radius: 0px;
+    outline: none;
+}
+.panel-heading.form-group .checkbox{
+    position: relative;
+    top: -8px;
+}
+.grouphead{
+    color: rgb(24, 154, 188);
+    font-size: 16px;
+}
+.panel-heading.form-group{
+    position: relative;
+    min-height: 50px;
+}
+.plus-icon{
+    display: none;
+}
+.minus-icon, .plus-icon{
+    color: rgb(21, 111, 134);
+    font-size: 22px;
+    line-height: 34px;
+    cursor: pointer;
+}

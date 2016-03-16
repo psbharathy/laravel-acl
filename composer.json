@@ -1,14 +1,13 @@
 {
     "name": "compassites/laravel-acl",
-    "description": "ACL pplication",
+    "description": "ACL application",
     "keywords": ["ACL", "Access", "Control" ,"Auth", "Roles" , "Permissions" , "User Role" ],
     "license": "MIT",
+    "langauage": "PHP",
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.1.*",
-        "laravelcollective/html": "5.1.*",
-        "doctrine/dbal": "^2.5"
+        "laravel/framework": "5.1.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

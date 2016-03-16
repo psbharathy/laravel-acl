@@ -22,12 +22,14 @@ $factory->define(App\Models\User::class, function (Faker\Generator $faker) {
 
 $factory->define(App\Models\Permission::class, function (Faker\Generator $faker) {
     return [
-        'AccessLevel' => $faker->AccessLevel,
+        'parent_group' => $faker->parent_group,
+        'permission' => $faker->permission,
+        'label' => $faker->label,
     ];
 });
 
 $factory->define(App\Models\Role::class, function (Faker\Generator $faker) {
     return [
-        'RoleName' => $faker->RoleName,
+        'role_name' => $faker->role_name,
     ];
 });
